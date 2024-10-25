@@ -1,0 +1,10 @@
+# Allow all crawlers full access
+User-agent: *
+Disallow:
+
+# Disallow access to certain folders
+Disallow: /admin/
+Disallow: /private/
+
+# Specify the location of the sitemap
+Sitemap: https://yory3r.github.io/pundiniagakhatulistiwa/sitemap.xml
